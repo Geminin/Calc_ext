@@ -13,13 +13,11 @@ Drugi z nich już z troche poważniejsza nazwą jaką jest <i><b>Kalkulator kred
 </p>
 <form>
 
-<button><a href="/Calc_ext/Choose/Calc_norm/Index_calc.php">Kalkulator</a></button>
+<button><a href="/Calc_ext/Choose/Calc_norm/Index_calc.php">Kalkulator</a></button><br>
 
 <button><a href="/Calc_ext/Choose/Calc_cred/Index_cred.php">Kalkulator kredytowy</a></button>
 		
 </form>	
-
-
 
 
 
