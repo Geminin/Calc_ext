@@ -60,7 +60,7 @@ if (empty ( $messages )) {
 		case 'div' :
 			$result = $x / $y;
 			break;
-        case 'power';
+        case 'pow';
             $result = pow($x,$y);
             break;    
 		case 'plus' :
