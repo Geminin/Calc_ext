@@ -68,6 +68,6 @@ if (empty ( $messages )) {
 			break;
 	}
 }
-// brb
+
 
 include 'viev_calc.php';
