@@ -40,8 +40,7 @@ if (isset($messages)) {
 <?php } ?>
 
 
-
-
+<button><a href="<?php print(_APP_URL);?>/Choose/viev.php">Powrót</a></button>
 
 </body>
 </html>
