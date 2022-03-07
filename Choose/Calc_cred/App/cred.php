@@ -63,4 +63,4 @@ if (empty ( $messages )) { // gdy brak błędów
 }
 
 
-include 'viev_cred.php';
+include 'view_cred.php';
