@@ -6,7 +6,7 @@
 <title>Kalkulator_rozszerzony</title>
 </head>
 <body>
-<form action="<?php print(_APP_URL);?>/Choose/Calc_cred/App/cred.php'" method="post">
+<form action="<?php print(_APP_URL);?>/Choose/Calc_cred/App/cred.php" method="post">
 
 	<label for="id_x">Kwota: </label>
 	<input id="id_x" type="text" name="Kwota" value="<?php if(isset($Kwota)) print($Kwota); ?>" /><br />
