@@ -70,4 +70,4 @@ if (empty ( $messages )) {
 }
 
 
-include 'viev_calc.php';
+include 'view_calc.php';
