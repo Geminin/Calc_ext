@@ -56,7 +56,7 @@ if (empty ( $messages )) { // gdy brak błędów
 	$Procent= intval($Procent);
 
 	//wykonanie operacji
-	$Miesiace = $Lata*12;
+	$Miesiące = $Lata*12;
 	$Kwota=$Kwota + ($Kwota*($Procent/100));
 	$result = $Kwota/$Miesiące;
 	
