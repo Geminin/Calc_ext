@@ -7,7 +7,7 @@
 </head>
 <body>
 
-<form action="<?php print(_APP_URL);?>/Choose/Calc_norm/App/calc.php'" method="post">
+<form action="<?php print(_APP_URL);?>/Choose/Calc_norm/App/calc.php" method="post">
 
 <!--  L1 -->
 <label for="id_x">Liczba 1: </label>
