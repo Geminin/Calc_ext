@@ -45,7 +45,7 @@ if (isset($messages)) {
 
 <?php if (isset($result)){ ?>
 <div style="margin: 20px; padding: 10px; border-radius: 5px; background-color: #ff0; width:300px;">
-<?php echo 'Rata na jeden miesiąc: '.$result; ?>
+<?php echo 'Wynik '.$result; ?>
 </div>
 <?php } ?>
 	
