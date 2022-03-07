@@ -13,7 +13,7 @@ $op = $_REQUEST ['op'];
 // 2. walidacja parametrów 
 
 
-if ( ! (isset($x) && isset($y) && isset($operation))) {
+if ( ! (isset($x) && isset($y) && isset($op))) {
 	
 	$messages [] = 'Błędne wywołanie aplikacji. Brak jednego z parametrów.';
 }
@@ -50,7 +50,7 @@ if (empty ( $messages )) {
 	$y = intval($y);
 	
 	//wykonanie operacji
-	switch ($operation) {
+	switch ($op) {
 		case 'minus' :
 			$result = $x - $y;
 			break;
@@ -63,7 +63,7 @@ if (empty ( $messages )) {
         case 'power';
             $result = pow($x,$y);
             break;    
-		default :
+		case 'plus' :
 			$result = $x + $y;
 			break;
 	}
