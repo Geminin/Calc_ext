@@ -57,8 +57,8 @@ if (empty ( $messages )) { // gdy brak błędów
 
 	//wykonanie operacji
 	$Miesiące = $Lata*12;
-	$Kwota=$Kwota + ($Kwota*($Procent/100));
-	$result = $Kwota/$Miesiące;
+	$result=$Kwota + ($Kwota*($Procent/100));
+	$result = $result/$Miesiące;
 	
 }
 
